@@ -117,24 +117,24 @@ public class Program {
             System.out.println("Такого молока нет в автомате");
         }
 
-        AutomaticMachine automaticMachine1 = new AutomaticMachine(drinks);
-        CupOfCoffee cupOfСoffee = automaticMachine1.getCupOfCoffee("Капучино", 250, 95);
-        if (cupOfСoffee != null) {
-            System.out.println("Вы купили: ");
-            System.out.println(cupOfСoffee.displayInfo());
-        }
-        else {
-            System.out.println("Такого кофе нет в автомате");
-        }
+        // AutomaticMachine automaticMachine1 = new AutomaticMachine(drinks);
+        // CupOfCoffee cupOfСoffee = automaticMachine1.getCupOfCoffee("Капучино", 250, 95);
+        // if (cupOfСoffee != null) {
+        //     System.out.println("Вы купили: ");
+        //     System.out.println(cupOfСoffee.displayInfo());
+        // }
+        // else {
+        //     System.out.println("Такого кофе нет в автомате");
+        // }
 
-        AutomaticMachine automaticMachine2 = new AutomaticMachine(drinks);
-        CupOfTea cupOfTea = automaticMachine2.getCupOfTea("Горячий чай", 500, 95);
-        if (cupOfСoffee != null) {
-            System.out.println("Вы купили: ");
-            System.out.println(cupOfTea.displayInfo());
-        }
-        else {
-            System.out.println("Такого чая нет в автомате");
-        }
+        // AutomaticMachine automaticMachine2 = new AutomaticMachine(drinks);
+        // CupOfTea cupOfTea = automaticMachine2.getCupOfTea("Горячий чай", 500, 95);
+        // if (cupOfСoffee != null) {
+        //     System.out.println("Вы купили: ");
+        //     System.out.println(cupOfTea.displayInfo());
+        // }
+        // else {
+        //     System.out.println("Такого чая нет в автомате");
+        // }
     }
 }
